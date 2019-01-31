@@ -6,6 +6,7 @@ node {
   stage 'prepare gems'
   sh '''#!/bin/bash
   source ~/.rvm/scripts/rvm
+  # source /etc/profile.d/rvm.sh
   bundle install --path=.bundle/gems/
   '''
 
